@@ -1,13 +1,79 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-135292",
-    "name": "Solar_MPPT",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-135292",
+  "name": "Solar_MPPT",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 1,
+      "y": 0.5,
+      "uniqueID": "id-135293",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2,
+      "y": 0.4,
+      "uniqueID": "id-135295",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.5,
+      "y": 0.3,
+      "uniqueID": "id-135299",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "VictronMPPT",
+          "currentEquation": "VictronMPPT"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 47
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://www.amazon.com/Victron-BlueSolar-MPPT-Charge-Controller/dp/B018M88G5C/ref=sr_1_5_sspa?th=1",
+          "currentEquation": "https://www.amazon.com/Victron-BlueSolar-MPPT-Charge-Controller/dp/B018M88G5C/ref=sr_1_5_sspa?th=1"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "VictronMPPT",
+        "numberNeeded": 1,
+        "costUSD": 47,
+        "source": "https://www.amazon.com/Victron-BlueSolar-MPPT-Charge-Controller/dp/B018M88G5C/ref=sr_1_5_sspa?th=1"
+      }
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
