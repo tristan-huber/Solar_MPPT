@@ -1029,7 +1029,7 @@
     },
     {
       "atomType": "Color",
-      "x": 0.8,
+      "x": 0.7,
       "y": 0.7,
       "uniqueID": "id-135460",
       "ioValues": [
@@ -1042,16 +1042,16 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.9,
+      "x": 0.8,
       "y": 0.8,
       "uniqueID": "id-135463",
       "ioValues": [
         {
-          "name": "Shape 1",
+          "name": "Shape 3",
           "ioValue": null
         },
         {
-          "name": "Shape 2",
+          "name": "Shape 4",
           "ioValue": null
         }
       ]
@@ -1059,7 +1059,7 @@
     {
       "atomType": "Extrude",
       "x": 0.7,
-      "y": 0.5,
+      "y": 0.6,
       "uniqueID": "id-135468",
       "ioValues": [
         {
@@ -1068,7 +1068,7 @@
         },
         {
           "name": "height",
-          "ioValue": 2,
+          "ioValue": 1.695,
           "currentEquation": "2"
         }
       ]
@@ -1086,18 +1086,491 @@
       "x": 0.5,
       "y": 0.6,
       "uniqueID": "id-135474",
-      "name": "x + y",
+      "name": "x + 0.125",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
+          "ioValue": 1.57
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "x + 0.125"
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.8,
+      "y": 0.5,
+      "uniqueID": "id-135478",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": [
+                  {
+                    "geometry": "extrude-rotate-97b9b7eb-0-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--0.5",
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "metadata": {},
+                    "dimension": "3D"
+                  },
+                  {
+                    "geometry": "extrude-rotate-97b9b7eb-1-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--0.5",
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "metadata": {},
+                    "dimension": "3D"
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": []
+              },
+              {
+                "geometry": [
+                  {
+                    "geometry": "extrude-rotate-rotate-9b049896-0-0-0-90-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--0.5",
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "metadata": {},
+                    "dimension": "3D"
+                  },
+                  {
+                    "geometry": "extrude-rotate-rotate-move-move-circle-0.0625-1.965-2.225-0--0.25--0.25-0-0-0-90-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--0.5",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": {}
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [],
+            "nonReplicadSerialized": {}
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": [
+                  {
+                    "geometry": "extrude-rotate-97b9b7eb-0-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.695",
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "metadata": {},
+                    "dimension": "3D"
+                  },
+                  {
+                    "geometry": "extrude-rotate-97b9b7eb-1-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.695",
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "metadata": {},
+                    "dimension": "3D"
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": []
+              },
+              {
+                "geometry": [
+                  {
+                    "geometry": "extrude-rotate-rotate-9b049896-0-0-0-90-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.695",
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "metadata": {},
+                    "dimension": "3D"
+                  },
+                  {
+                    "geometry": "extrude-rotate-rotate-move-move-circle-0.0625-1.965-2.225-0--0.25--0.25-0-0-0-90-0-0-90-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.695",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": {}
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [],
+            "nonReplicadSerialized": {}
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.9,
+      "y": 0.7,
+      "uniqueID": "id-135490",
+      "name": "phys.SetMass",
+      "ioValues": [
+        {
+          "name": "assembly",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "mass",
+          "ioValue": 1.1,
+          "currentEquation": "1.1"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 1,
+          "y": 0.5,
+          "uniqueID": "id-135486",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0,
+          "y": 0.1,
+          "uniqueID": "id-135487",
+          "name": "assembly",
+          "type": "geometry",
+          "options": []
+        },
+        {
+          "atomType": "Code",
+          "x": 0.4,
+          "y": 0.7,
+          "uniqueID": "id-135488",
+          "ioValues": [
+            {
+              "name": "assembly",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "mass",
+              "ioValue": 1.1
+            }
+          ],
+          "interpreterVersion": 1,
+          "code": "// Set mass\nfunction run(assembly: Assembly, mass: number) {\n  const initial = assembly.metadata ? assembly.metadata : {}\n  initial.mass = mass;\n  assembly.metadata = initial;\n  return assembly?.skipDisjointPostprocess();\n}",
+          "compiledCode": "\"use strict\";\n// Set mass\nfunction run(assembly, mass) {\n    const initial = assembly.metadata ? assembly.metadata : {};\n    initial.mass = mass;\n    assembly.metadata = initial;\n    return assembly?.skipDisjointPostprocess();\n}\n"
+        },
+        {
+          "atomType": "Input",
+          "x": 0,
+          "y": 0.2,
+          "uniqueID": "id-135489",
+          "name": "mass",
+          "options": []
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "assembly",
+          "ap1ID": "id-135487",
+          "ap2ID": "id-135488"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-135488",
+          "ap2ID": "id-135486"
+        },
+        {
+          "ap2Name": "mass",
+          "ap1ID": "id-135489",
+          "ap2ID": "id-135488"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-09-15T18:23:38.997Z",
+        "repoName": "phys.SetMass",
+        "dateCreated": "2026-08-12T16:42:56Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/tristan-huber/phys.SetMass/master/README.md?sanitize=true",
+        "yyyy": 2026,
+        "topMoleculeID": "id-43071",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/tristan-huber/phys.SetMass",
+        "topics": [
+          "abundance-tool"
+        ],
+        "pullRequests": [],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739840",
+        "ranking": 0.6,
+        "searchField": "phys.setmass tristan-huber adds a mass to the metadata of an assembly. in general this superseed masses of the leafs of an assembly. consumed by other physics methods in utils. arbitrary units.",
+        "owner": "tristan-huber",
+        "description": "Adds a mass to the metadata of an assembly. In general this superseed masses of the leafs of an assembly. Consumed by other physics methods in utils. Arbitrary units.",
+        "contentURL": "https://raw.githubusercontent.com/tristan-huber/phys.SetMass/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/tristan-huber/phys.SetMass/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1789510032588
     }
   ],
   "allConnectors": [
@@ -1107,7 +1580,7 @@
       "ap2ID": "id-135293"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "Shape 3",
       "ap1ID": "id-135306",
       "ap2ID": "id-135463"
     },
@@ -1207,24 +1680,49 @@
       "ap2ID": "id-135468"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-135456",
-      "ap2ID": "id-135460"
+      "ap2ID": "id-135478"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "Shape 4",
       "ap1ID": "id-135460",
       "ap2ID": "id-135463"
     },
     {
-      "ap2Name": "geometry",
+      "ap2Name": "assembly",
       "ap1ID": "id-135463",
-      "ap2ID": "id-135299"
+      "ap2ID": "id-135490"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-135468",
+      "ap2ID": "id-135478"
     },
     {
       "ap2Name": "height",
       "ap1ID": "id-135472",
       "ap2ID": "id-135306"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-135472",
+      "ap2ID": "id-135474"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-135474",
+      "ap2ID": "id-135468"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-135478",
+      "ap2ID": "id-135460"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-135490",
+      "ap2ID": "id-135299"
     }
   ],
   "unitsKey": "Inches",
